@@ -27,7 +27,8 @@ body {
 
 h1, h2, h3, h4 {
     padding: 0;
-    margin: 1em 0;
+    margin: 0;
+    margin-bottom: .5em;
     color: #111;
     text-transform: uppercase;
 }
