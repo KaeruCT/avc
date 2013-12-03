@@ -83,6 +83,7 @@ footer {
     float: left;
     clear: left;
     margin-right: 2em;
+    margin-bottom: 1em;
     box-shadow: 2px 2px 6px #000;
     -webkit-box-shadow: 2px 2px 6px #000;
     -moz-box-shadow: 2px 2px 6px #000;
