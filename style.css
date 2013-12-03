@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-    font-family: "Droid Sans", Arial, sans-serif;
+    font-family: "Droid Sans", "Helvetica", Arial, sans-serif;
     background: #333 url('bg.png');
     background-attachment: fixed;
 }
