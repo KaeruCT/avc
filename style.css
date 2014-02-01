@@ -25,19 +25,22 @@ body {
     -ms-box-shadow: #000 0 0 32px;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
     padding: 0;
     margin: 0;
     margin-bottom: .5em;
-    color: #111;
+    color: #666;
     text-transform: uppercase;
 }
 
 h2 {
-    color: #444;
+    color: #222;
     font-size: 1.4em;
 }
-
+h5 {
+    color: #444;
+    font-size: 0.9em;
+}
 #content {
     margin: 5% auto;
     line-height: 1.5em;
@@ -45,11 +48,8 @@ h2 {
     max-width: 600px;
 }
 
-.projects, .clear {
+.projects, .skills, .clear {
     clear: both;
-}
-.projects {
-    padding-top: 2em;
 }
 .thumbnail {
     width: 48%;
@@ -77,6 +77,16 @@ h2 {
     }
     .thumbnail img {
         height: auto;
+    }
+    .nav li {
+        display: inline-block;
+        padding: 0 1em 0 0;
+    }
+    .nav li a {
+        font-size: 1.4em;
+    }
+    section h2 {
+        display: none;
     }
 }
 
@@ -124,6 +134,7 @@ footer {
     -moz-fitler: grayscale(60%);
     -ms-filter: grayscale(60%);
     max-width: 100%;
+    width: 315px;
 }
 
 .face:hover {
@@ -159,7 +170,10 @@ a:hover {
 a:active {
     color: #000;
 }
-
+a.current {
+    color: #000 !important;
+    text-decoration: underline;
+}
 footer p {
     margin: 0;
     line-height: 100px;
@@ -190,4 +204,34 @@ footer .links a:hover {
 
 footer .links a:active {
     color: #fff;
+}
+
+.skills ul  {
+    padding: 0;
+    margin: 0;
+    padding-left: 2em;
+}
+
+section.content {
+    display: none;
+    clear: both;
+}
+section.default {
+    display: block;
+}
+section.cv p {
+    margin-top: 0;
+}
+.personal-info dt {
+    color: #666;
+    font-weight: bold;
+    width: 30%;
+    float: left;
+    clear: left;
+}
+.personal-info dd {
+    margin: 0;
+    padding: 0;
+    padding-left: 1em;
+    float: left;
 }
