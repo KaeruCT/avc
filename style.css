@@ -16,7 +16,6 @@ body {
     right: 0;
     top: 0;
     padding: .5em 2em;
-    font-size: .9em;
 }
 #language-switcher a {
     text-transform: lowercase;
@@ -87,12 +86,16 @@ h5 {
     .thumbnail img {
         height: auto;
     }
+    .nav {
+        border-bottom: #ccc 1px solid;
+        border-top: #ccc 1px solid;
+    }
     .nav li {
         display: inline-block;
         padding: 0 .5em 0 0;
     }
     .nav li a {
-        font-size: 1.2em;
+        font-size: .9em;
     }
     section h2 {
         display: none;
