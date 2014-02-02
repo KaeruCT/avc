@@ -1,0 +1,36 @@
+Skills
+<h4>I am skilled in</h4>
+<ul>
+    <li>
+        Working, communicating, and assisting my teammates in
+        order to develop high quality software solutions.
+    </li>
+    <li>
+        Developing web applications using
+        technologies such as:
+        <ul>
+            <li>HTML</li>
+            <li>CSS: Sass, Bootstrap, Foundation</li>
+            <li>Client-side JavaScript: AngularJS, jQuery</li>
+            <li>Server-side JavaScript: Express, Meteor</li>
+            <li>PHP: Symfony, Zend Framework, Laravel, Doctrine</li>
+            <li>Python: Django</li>
+            <li>Relational Databases: MySQL, sqlite</li>
+        </ul>
+    </li>
+    <li>
+        Leveraging software configuration, development, and other tools such as:
+        <ul>
+            <li>Source Control: Git, Subversion</li>
+            <li>Automation and Deployment: Grunt, Capistrano, Composer</li>
+            <li>IDEs / Editors: Vim, Eclipse, IntelliJ Idea, Netbeans, PyCharm</li>
+        </ul>
+    </li>
+</ul>
+<h4>I want to improve my skills in</h4>
+<ul>
+    <li>Linux System administration</li>
+    <li>Software development in Go</li>
+    <li>Machine Learning</li>
+    <li>NoSQL databases such as MongoDB and CouchDB</li>
+</ul>

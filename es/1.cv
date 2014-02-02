@@ -1,0 +1,30 @@
+CV
+<h4>Informaci&oacute;n Personal</h4>
+<dl class="personal-info">
+    <dt>Nombre</dt>
+        <dd>Andr&eacute;s Villarreal Cordero</dd>
+    <dt>Nacionalidad</dt>
+        <dd>Costarricense</dd>
+    <dt>Direcci&oacute;n</dt>
+        <dd>San Pablo, Heredia, Costa Rica</dd>
+    <dt>Correo Electr&oacute;nico</dt>
+        <dd>andres<b>&#64;</b>villarreal<b>.</b>co<b>.</b>cr</dd>
+    <div class="clear"></div>
+</dl>
+<h4>Idiomas</h4>
+<p>
+    Espa&ntilde;ol (lengua materna), e Ingl&eacute;s (avanzado).
+</p>
+<h4>Experiencia de Trabajo</h4>
+<h5>Growth Acceleration Partners: 2013 - actual</h5>
+<p>
+    En Growth Acceleration Partners, he contribuido
+    a desarrollar y darle mantenimiento a aplicaciones web,
+    utilizando el <i>LAMP stack</i>.
+</p>
+
+<h4>Preparaci&oacute;n Acad&eacute;mica</h4>
+<h5>CENFOTEC: 2014 - actual</h5>
+<p>Diplomado en Desarrollo de Software</p>
+<h5>Colegio Yurusti: Graduado en el 2010</h5>
+<p>Bachiller en Educación Media</p>

@@ -1,0 +1,15 @@
+Links
+<p>Find me in places around the Internet!</p>
+<ul class="links">
+    <li>
+        <a href="http://kaeruct.github.io/">Pejibaye Blog</a>
+        <small> - here I blog about my favorite technologies</small>
+    </li>
+    <li>
+        <a href="http://github.com/KaeruCT">GitHub</a>
+        <small>- most of my open source software projects are hosted at GitHub</small>
+    </li>
+    <li>
+        <a href="http://cr.linkedin.com/pub/andr%C3%A9s-villarreal/81/170/570/">LinkedIn</a>
+    </li>
+</ul>

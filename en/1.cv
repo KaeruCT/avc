@@ -1,0 +1,30 @@
+CV
+<h4>Personal Information</h4>
+<dl class="personal-info">
+    <dt>Name</dt>
+        <dd>Andr&eacute;s Villarreal Cordero</dd>
+    <dt>Nationality</dt>
+        <dd>Costa Rican</dd>
+    <dt>Address</dt>
+        <dd>San Pablo, Heredia, Costa Rica</dd>
+    <dt>E­mail Address</dt>
+        <dd>andres<b>&#64;</b>villarreal<b>.</b>co<b>.</b>cr</dd>
+    <div class="clear"></div>
+</dl>
+<h4>Languages</h4>
+<p>
+    Spanish (first language), and English (advanced).
+</p>
+<h4>Professional Experience</h4>
+<h5>Growth Acceleration Partners: 2013 - current</h5>
+<p>
+    At Growth Acceleration Partners, I have contributed mostly to
+    developing and maintaining existing web applications,
+    using the LAMP stack.
+</p>
+
+<h4>Academic Preparation</h4>
+<h5>CENFOTEC: 2014 - current</h5>
+<p>Software Engineering Diploma</p>
+<h5>Colegio Yurusti: Graduated on 2010</h5>
+<p>High School Diploma</p>

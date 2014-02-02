@@ -1,0 +1,36 @@
+Habilidades
+<h4>Tengo habilidades para</h4>
+<ul>
+    <li>
+        Trabajar, comunicarme, y asistir a mis compa&ntilde;eros de trabajo
+        para desarrollar soluciones de software de alta calidad.
+    </li>
+    <li>
+        Desarrollar aplicaciones web utilizando las siguientes tecnolog&iacute;as:
+        <ul>
+            <li>HTML</li>
+            <li>CSS: Sass, Bootstrap, Foundation</li>
+            <li><i>Client-side</i> JavaScript: AngularJS, jQuery</li>
+            <li><i>Server-side</i> JavaScript: Express, Meteor</li>
+            <li>PHP: Symfony, Zend Framework, Laravel, Doctrine</li>
+            <li>Python: Django</li>
+            <li>Bases de Datos Relacionales: MySQL, sqlite</li>
+        </ul>
+    </li>
+    <li>
+        Utilizar varias herramientas de configuraci&oacute;n y
+        desarrollo de software, tales como:
+        <ul>
+            <li>Control de Versiones: Git, Subversion</li>
+            <li>Automatizaci&oacute;n y despliegue: Grunt, Capistrano, Composer</li>
+            <li>IDEs / Editores: Vim, Eclipse, IntelliJ Idea, Netbeans, PyCharm</li>
+        </ul>
+    </li>
+</ul>
+<h4>Quiero mejorar mis habilidades en</h4>
+<ul>
+    <li>Administraci&oacute;n de sistemas Linux</li>
+    <li>Desarrollo de software en Go</li>
+    <li><i>Machine Learning</i></li>
+    <li>Bases de Datos NoSQL, como MongoDB y CouchDB</li>
+</ul>

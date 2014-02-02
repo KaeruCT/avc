@@ -11,7 +11,16 @@ body {
     background: #333 url('bg.png');
     background-attachment: fixed;
 }
-
+#language-switcher {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: .5em 2em;
+    font-size: .9em;
+}
+#language-switcher a {
+    text-transform: lowercase;
+}
 #page-container {
     width: 100%;
     min-height: 100%;
