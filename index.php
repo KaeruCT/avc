@@ -22,6 +22,7 @@
 <head>
     <title>Andr&eacute;s Villarreal</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=yes">
 </head>
 <body>
