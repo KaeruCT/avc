@@ -70,17 +70,16 @@
     <div class="inner-footer">
         <div>
             <p>
-            	villarreal.co.cr 2013
+            	villarreal.co.cr 2016
             </p>
             <ul class="links">
                 <li><a href="http://twitter.com/KaeruCT">Twitter</a></li>
-                <li><a href="http://last.fm/user/KaeruCT">last.fm</a></li>
             </ul>
         </div>
     </div>
 </footer>
 
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script>
     var $navlinks = $('[data-title]');
     $navlinks.on('click', function (e) {
