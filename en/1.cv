@@ -17,19 +17,27 @@ CV
 </p>
 <h4>Professional Experience</h4>
 <h5>SecureLink: 2014 - current</h5>
-<p>
-    At SecureLink, I work fixing issues, implementing new features,
-    and improving the existing codebase by creating tests and refactoring.
-</p>
+<ul>
+    <li>Maintain an enterprise software application.</li>
+    <li>Design and implement new features.</li>
+    <li>
+        Improve the stability of our existing codebase
+        by creating automated tests and refactoring.
+    </li>
+    <li>
+        Modernized the application's frontend by introducing tools
+        like NPM into our workflow.
+    </li>
+</ul>
 <h5>Growth Acceleration Partners: 2012 - 2014</h5>
-<p>
-    At Growth Acceleration Partners, I contributed mostly to
-    developing and maintaining existing web applications,
-    using the LAMP stack.
-</p>
-
+<ul>
+    <li>
+        Designed, developed, and maintained web applications
+        that made use of the LAMP stack.
+    </li>
+</ul>
 <h4>Academic Preparation</h4>
-<h5>CENFOTEC: 2011 - current</h5>
-<p>Software Engineering Diploma</p>
+<h5>CENFOTEC: 2011 - 2017</h5>
+<p>Software Development Associate's Degree</p>
 <h5>Colegio Yurusti: Graduated on 2010</h5>
 <p>High School Diploma</p>

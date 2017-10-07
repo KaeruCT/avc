@@ -1,4 +1,9 @@
 Proyectos
+<p>
+    Estos son unos proyectos creados por mi persona en mi tiempo libre. No
+    son la t&iacute;pica aplicaci&oacute;n de <i>software</i>, si no algo
+    que disfruto programar solamente por pura diversi&oacute;n.
+</p>
 <a class="thumbnail" href="showcase/glxy">
     <img src="img/glxy.png" alt="glxy">
     glxy
@@ -7,7 +12,7 @@ Proyectos
     <img src="img/snake.png" alt="snake">
     snake
 </a>
-<a class="thumbnail" href="https://f-droid.org/repository/browse/?fdfilter=glxy&fdid=com.kaeruct.glxy">
+<a class="thumbnail" href="https://f-droid.org/packages/com.kaeruct.glxy/">
     <img src="img/glxy-android.png" alt="GLXY (for Android)">
     GLXY (para Android)
 </a>

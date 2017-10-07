@@ -12,7 +12,7 @@ Habilidades
             <li>CSS: Sass, Bootstrap, Foundation</li>
             <li><i>Client-side</i> JavaScript: AngularJS, jQuery, React, Flux</li>
             <li><i>Server-side</i> JavaScript: Express, Meteor</li>
-            <li>PHP: Symfony, Zend Framework, Laravel, Doctrine</li>
+            <li>PHP: Symfony, Zend Framework, Laravel, Silex, CakePHP, Doctrine</li>
             <li>Python: Django</li>
             <li>Bases de Datos Relacionales: PostgreSQL, MySQL, sqlite</li>
         </ul>
@@ -22,15 +22,23 @@ Habilidades
         desarrollo de software, tales como:
         <ul>
             <li>Control de Versiones: Git, Subversion</li>
-            <li>Automatizaci&oacute;n y despliegue: Maven, Ant, Grunt, Capistrano, Composer</li>
-            <li>IDEs / Editores: Vim, Atom, Eclipse, IntelliJ Idea, Netbeans, PyCharm</li>
+            <li>Automatizaci&oacute;n y despliegue: NPM, Grunt, Composer, Maven, Ant, Capistrano</li>
+            <li>IDEs / Editores: IntelliJ Idea, Atom, Eclipse, Netbeans, Vim</li>
+            <li>Integraci&oacute;n Continua: Jenkins</li>
+        </ul>
+    </li>
+    <li>
+        Utilizaci&oacute;n de sistemas operativos:
+        <ul>
+            <li>Linux (Ubuntu, Debian, CentOS)</li>
+            <li>Microsoft Windows</li>
+            <li>OSX, macOS</li>
         </ul>
     </li>
 </ul>
 <h4>Quiero mejorar mis habilidades en</h4>
 <ul>
     <li>Administraci&oacute;n de sistemas Linux</li>
-    <li>Desarrollo de software en Go</li>
     <li>Software Libre y de C&oacute;digo Abierto</li>
-    <li>Bases de Datos NoSQL, como MongoDB y CouchDB</li>
+    <li>Desarrollo M&oacute;vil: iOS, Android</li>
 </ul>

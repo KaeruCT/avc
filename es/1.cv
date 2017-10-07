@@ -15,22 +15,31 @@ CV
 <p>
     Espa&ntilde;ol (lengua materna), e Ingl&eacute;s (avanzado).
 </p>
-<h4>Experiencia de Trabajo</h4>
+<h4>Experiencia Profesional</h4>
 <h5>SecureLink: 2014 - actual</h5>
-<p>
-    En SecureLink, me encargo de corregir errores, implementar
-    nuevas funcionalidades, y mejorar el c&oacute;digo existente
-    por medio de pruebas y <i>refactoring</i>.
-</p>
+<ul>
+    <li>Dar mantenimiento a una aplicaci&oacute;n de <i>software</i> <i>enterprise</i>.</li>
+    <li>Dise&ntilde;ar e implementar nuevas funcionalidades.</li>
+    <li>
+        Mejorar la estabilidad de la aplicaci&oacute;n creando pruebas
+        automatizadas y haciendo <i>refactoring</i>.
+    </li>
+    <li>
+        Modernic&eacute; el <i>frontend</i> de la
+       aplicaci&oacute;n introduciendo tecnolog&iacute;as como NPM en
+       nuestro flujo de trabajo.
+    </li>
+</ul>
 <h5>Growth Acceleration Partners: 2012 - 2014</h5>
-<p>
-    En Growth Acceleration Partners, contribu&iacute; 
-    a desarrollar y darle mantenimiento a aplicaciones web,
-    utilizando el <i>LAMP stack</i>.
-</p>
+<ul>
+    <li>
+        Dise&ntilde;&eacute;, implement&eacute, y le di mantenimiento a
+        aplicaciones web que se montaron sobre el <i>LAMP stack</i>.
+    </li>
+</ul>
 
 <h4>Preparaci&oacute;n Acad&eacute;mica</h4>
-<h5>CENFOTEC: 2011 - actual</h5>
+<h5>CENFOTEC: 2011 - 2017</h5>
 <p>Diplomado en Desarrollo de Software</p>
 <h5>Colegio Yurusti: Graduado en el 2010</h5>
 <p>Bachiller en Educaci&oacute;n Media</p>

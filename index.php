@@ -38,7 +38,7 @@
         <section class="main">
             <h1>Andr&eacute;s Villarreal</h1>
 
-            <img src="img/face.jpg" class="face" alt="face">
+            <img src="./img/face.jpg" class="face" alt="face">
 
             <div class="info">
                 <h2><?php echo $sections['info']['title']; ?></h2>
@@ -70,7 +70,7 @@
     <div class="inner-footer">
         <div>
             <p>
-            	villarreal.co.cr 2016
+                &copy; villarreal.co.cr <?php echo date('Y'); ?>
             </p>
             <ul class="links">
                 <li><a href="http://twitter.com/KaeruCT">Twitter</a></li>
@@ -83,12 +83,12 @@
 <script>
     var $navlinks = $('[data-title]');
     $navlinks.on('click', function (e) {
-        var $content = $("."+$(this).attr("data-title"));
+        var $content = $('.'+$(this).attr('data-title'));
         e.preventDefault();
 
-        $navlinks.removeClass("current");
-        $(this).addClass("current");
-        $("section.content").not($content).slideUp(700);
+        $navlinks.removeClass('current');
+        $(this).addClass('current');
+        $('section.content').not($content).slideUp(700);
         $content.slideDown(700);
         $('html, body').animate({
             scrollTop: $(this).offset().top
