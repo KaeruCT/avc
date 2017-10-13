@@ -13,7 +13,7 @@ Habilidades
             <li><i>Client-side</i> JavaScript: AngularJS, jQuery, React, Flux</li>
             <li><i>Server-side</i> JavaScript: Express, Meteor</li>
             <li>PHP: Symfony, Zend Framework, Laravel, Silex, CakePHP, Doctrine</li>
-            <li>Python: Django</li>
+            <li>Java: Struts, Spring, Hibernate, Spring Boot, Tomcat, JUnit, Freemarker</li>
             <li>Bases de Datos Relacionales: PostgreSQL, MySQL, sqlite</li>
         </ul>
     </li>
@@ -22,7 +22,7 @@ Habilidades
         desarrollo de software, tales como:
         <ul>
             <li>Control de Versiones: Git, Subversion</li>
-            <li>Automatizaci&oacute;n y despliegue: NPM, Grunt, Composer, Maven, Ant, Capistrano</li>
+            <li>Automatizaci&oacute;n y despliegue: NPM, Grunt, Composer, Maven, Ant</li>
             <li>IDEs / Editores: IntelliJ Idea, Atom, Eclipse, Netbeans, Vim</li>
             <li>Integraci&oacute;n Continua: Jenkins</li>
         </ul>

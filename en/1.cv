@@ -1,4 +1,20 @@
 CV
+<h4>A Short Introduction</h4>
+<p>
+    I've been programming
+    <a href="https://kaeruct.github.io/posts/origins.html">
+        since I was 12 years old</a>.
+    What I have learned so far can be summarized as "the less code the
+    better".
+</p><p>
+    However, we live in the real world, so I have learned to cope with
+    gigantic codebases and have gotten used to spending hours debugging
+    through strange code written before I even graduated from high school.
+</p><p>
+    In my spare time, I enjoy making and listening to music,
+    playing old video games, and working on my own side&#8209;projects.
+    I'd love to show you all my music but no one ever seems to ask...
+</p>
 <h4>Personal Information</h4>
 <dl class="personal-info">
     <dt>Name</dt>
@@ -18,11 +34,15 @@ CV
 <h4>Professional Experience</h4>
 <h5>SecureLink: 2014 - current</h5>
 <ul>
-    <li>Maintain an enterprise software application.</li>
-    <li>Design and implement new features.</li>
+    <li>Maintained an enterprise software application.</li>
+    <li>Designed and implemented new features.</li>
     <li>
-        Improve the stability of our existing codebase
+        Improved the stability of our existing codebase
         by creating automated tests and refactoring.
+    </li>
+    <li>
+        Documented existing software and processes
+        to facilitate knowledge sharing with team mates and new hires.
     </li>
     <li>
         Modernized the application's frontend by introducing tools

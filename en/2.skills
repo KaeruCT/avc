@@ -14,7 +14,7 @@ Skills
             <li>Client-side JavaScript: AngularJS, jQuery, React, Flux</li>
             <li>Server-side JavaScript: Express, Meteor</li>
             <li>PHP: Symfony, Zend Framework, Laravel, Silex, CakePHP, Doctrine</li>
-            <li>Python: Django</li>
+            <li>Java: Struts, Spring, Hibernate, Spring Boot, Tomcat, JUnit, Freemarker</li>
             <li>Relational Databases: PostgreSQL, MySQL, sqlite</li>
         </ul>
     </li>
@@ -22,7 +22,7 @@ Skills
         Leveraging software configuration, development, and other tools such as:
         <ul>
             <li>Source Control: Git, Subversion</li>
-            <li>Automation and Deployment: NPM, Grunt, Composer, Maven, Ant, Capistrano</li>
+            <li>Automation and Deployment: NPM, Grunt, Composer, Maven, Ant</li>
             <li>IDEs / Editors: IntelliJ Idea, Atom, Eclipse, Netbeans, Vim</li>
             <li>Continuous Integration: Jenkins</li>
         </ul>

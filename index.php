@@ -24,6 +24,8 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <meta property="description" content="Andr&eacute;s Villarreal, Software Engineer"/>
+    <meta property="keywords" content="Software Engineer, Frontend Developer, Software Development, Open Source, Web Developer"/>
 </head>
 <body>
 

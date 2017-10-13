@@ -3,14 +3,17 @@ Projects
     <li>
         <a href="https://wordpress.org/plugins/password-passthrough">
             "Password Passthrough" Wordpress plugin
-        </a>
+        </a> - I made this Wordpress plugin for a company I worked at
+        since they needed this very specific feature. However, I thought
+        it could be useful to other people so I put it on the Wordpress
+        plugin repository. Now it has over 100 active installs.
     </li>
 </ul>
-
+<h4>Other projects</h4>
 <p>
-    These are some projects I built on my own in my spare time. They are not
-    your typical software application, but more like something I enjoy
-    programming purely for fun.
+    The projects below are projects I built on my own in my spare time.
+    They are not your typical software application, but more like
+    something I enjoyed programming purely for fun.
 </p>
 <a class="thumbnail" href="showcase/glxy">
     <img src="img/glxy.png" alt="glxy">

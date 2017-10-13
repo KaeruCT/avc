@@ -1,4 +1,21 @@
 CV
+<h4>Una peque&ntilde;a introducci&oacute;n</h4>
+<p>
+    He programado
+    <a href="https://kaeruct.github.io/posts/origins.html">
+        desde que tengo 12 a&ntilde;os</a>.
+    Lo que he aprendido hasta ahora se puede resumir de esta forma:
+    "mientras menos c&oacute;digo mejor".
+</p><p>Sin embargo, vivimos en el mundo real, as&iacute; que he aprendido a
+    tolerar <i>codebases</i> gigantescas y me he acostumbrado a perder
+    horas haciendo <i>debugging</i> sobre c&oacute;digo extra&ntilde;o
+    que fu&eacute; escrito antes de que me graduara de la secundaria.
+</p><p>
+    En my tiempo libre, disfruto haciendo y escuchando m&uacute;sica,
+    jugando videojuegos <i>retro</i>, y trabajando en mis propios proyectos.
+    Me encantar&iacute;a mostrarle toda mi m&uacute;sica pero la gente
+    no suele pedirlo...
+</p>
 <h4>Informaci&oacute;n Personal</h4>
 <dl class="personal-info">
     <dt>Nombre</dt>
@@ -23,6 +40,11 @@ CV
     <li>
         Mejorar la estabilidad de la aplicaci&oacute;n creando pruebas
         automatizadas y haciendo <i>refactoring</i>.
+    </li>
+    <li>
+        Document&eacute; <i>software</i> y procesos existentes
+        para facilitar el intercambio de conocimiento con los
+        compa&ntilde;eros de trabajo y nuevos empleados.
     </li>
     <li>
         Modernic&eacute; el <i>frontend</i> de la

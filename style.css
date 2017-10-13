@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-    font-family: "Droid Sans", "Helvetica", Arial, sans-serif;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
     background: #333 url('bg.png');
     background-attachment: fixed;
 }
@@ -44,6 +44,9 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
     color: #222;
     font-size: 1.4em;
+}
+h4 {
+    border-bottom: #ccc 1px solid;
 }
 h5 {
     color: #444;
@@ -170,7 +173,6 @@ a:link, a:visited {
     color: #36a;
     text-decoration: none;
     font-weight: bold;
-    text-transform: uppercase;
 }
 
 a:hover {
@@ -184,6 +186,9 @@ a:active {
 a.current {
     color: #000 !important;
     text-decoration: underline;
+}
+.nav a {
+    text-transform: uppercase;
 }
 footer p {
     margin: 0;
@@ -232,6 +237,7 @@ section.default {
 }
 section.cv p {
     margin-top: 0;
+    text-align: justify;
 }
 .personal-info dt {
     color: #666;

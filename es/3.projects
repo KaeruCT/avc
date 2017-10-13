@@ -3,13 +3,20 @@ Proyectos
     <li>
         <a href="https://wordpress.org/plugins/password-passthrough">
             Plugin de Wordpress "Password Passthrough"
-        </a>
+        </a> - Hice este plugin de Wordpress para una
+        compa&ntilde;&iacute;a en la que trabaj&eacute; ya que
+        necesitaban esta funcionalidad espec&iacute;fica. Sin embargo,
+        se me ocurri&oacute; que podr&iacute;a serle &uacute;til a otras
+        personas, as&iacute; que lo puse en el repositorio de plugins
+        de Wordpress. Hoy tiene m&aacute;s de 100 instalaciones activas.
     </li>
 </ul>
+<h4>Otros proyectos</h4>
 <p>
-    Estos son unos proyectos creados por mi persona en mi tiempo libre. No
-    son la t&iacute;pica aplicaci&oacute;n de <i>software</i>, si no algo
-    que disfruto programar solamente por pura diversi&oacute;n.
+    Los proyectos a continuaci&oacute;n son unos proyectos creados por
+    mi persona en mi tiempo libre. No son la t&iacute;pica
+    aplicaci&oacute;n de <i>software</i>, si no algo
+    que disfrut&eacute; programar solamente por pura diversi&oacute;n.
 </p>
 <a class="thumbnail" href="showcase/glxy">
     <img src="img/glxy.png" alt="glxy">
