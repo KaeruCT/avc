@@ -77,6 +77,9 @@ h5 {
 .info {
     font-size: .9em;
 }
+.info p {
+    text-align: justify;
+}
 @media all and (max-width: 680px) {
     #content {
         padding: 0 20px;
