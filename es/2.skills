@@ -10,8 +10,8 @@ Habilidades
         <ul>
             <li>HTML</li>
             <li>CSS: Sass, Bootstrap, Foundation</li>
-            <li><i>Client-side</i> JavaScript: AngularJS, jQuery, React, Flux</li>
-            <li><i>Server-side</i> JavaScript: Express, Meteor</li>
+            <li><i>Client-side</i> JavaScript: React, Redux, AngularJS, jQuery</li>
+            <li><i>Server-side</i> JavaScript: Express</li>
             <li>PHP: Symfony, Zend Framework, Laravel, Silex, CakePHP, Doctrine</li>
             <li>Java: Struts, Spring, Hibernate, Spring Boot, Tomcat, JUnit, Freemarker</li>
             <li>Bases de Datos Relacionales: PostgreSQL, MySQL, sqlite</li>
@@ -38,7 +38,7 @@ Habilidades
 </ul>
 <h4>Quiero mejorar mis habilidades en</h4>
 <ul>
-    <li>Administraci&oacute;n de sistemas Linux</li>
+    <li><i>DevOps</i></li>
     <li>Software Libre y de C&oacute;digo Abierto</li>
     <li>Desarrollo M&oacute;vil: iOS, Android</li>
 </ul>

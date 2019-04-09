@@ -11,8 +11,8 @@ Skills
         <ul>
             <li>HTML</li>
             <li>CSS: Sass, Bootstrap, Foundation</li>
-            <li>Client-side JavaScript: AngularJS, jQuery, React, Flux</li>
-            <li>Server-side JavaScript: Express, Meteor</li>
+            <li>Client-side JavaScript: React, Redux, AngularJS, jQuery</li>
+            <li>Server-side JavaScript: Express</li>
             <li>PHP: Symfony, Zend Framework, Laravel, Silex, CakePHP, Doctrine</li>
             <li>Java: Struts, Spring, Hibernate, Spring Boot, Tomcat, JUnit, Freemarker</li>
             <li>Relational Databases: PostgreSQL, MySQL, sqlite</li>
@@ -38,7 +38,7 @@ Skills
 </ul>
 <h4>I want to improve my skills in</h4>
 <ul>
-    <li>Linux System Administration</li>
+    <li>DevOps</li>
     <li>Free And Open Source Software</li>
     <li>Mobile Development: iOS, Android</li>
 </ul>
