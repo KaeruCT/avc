@@ -155,6 +155,9 @@ footer {
     transition: all 0.5s ease;
     max-width: 100%;
     width: 315px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
 
 }
 
