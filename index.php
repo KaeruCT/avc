@@ -49,7 +49,7 @@
                     <?php foreach ($sections as $i => $p): if ($i === 'info') continue; ?>
                         <li><a class="<?php echo $p['default']; ?>"
                             data-title="<?php echo $p['id']; ?>"
-                            href="#">
+                            href="#<?php echo $p['id']; ?>">
                             <?php echo $p['title']; ?>
                         </a></li>
                     <?php endforeach; ?>
@@ -59,6 +59,7 @@
 
         <?php foreach ($sections as $i => $p): if ($i === 'info') continue; ?>
             <section class="content <?php echo $p['default'] ? 'default' : ''; ?> <?php echo $p['id']; ?>">
+                <a name="<?php echo $p['id']; ?>"></a>
                 <h2><?php echo $p['title']; ?></h2>
                 <?php echo $p['content']; ?>
             </section>
@@ -76,6 +77,8 @@
             </p>
             <ul class="links">
                 <li><a href="http://twitter.com/KaeruCT">Twitter</a></li>
+                <li><a href="https://soundcloud.com/try_andy/tracks">SoundCloud</a></li>
+                <li><a href="https://tryandy.bandcamp.com/">Bandcamp</a></li>
             </ul>
         </div>
     </div>
