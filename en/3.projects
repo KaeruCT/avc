@@ -1,6 +1,10 @@
 Projects
 <ul>
     <li>
+        The site you are viewing right now.
+        <a href="https://github.com/kaeruct/avc">View source on Github</a>.
+    </li>
+    <li>
         <a href="https://wordpress.org/plugins/password-passthrough">
             "Password Passthrough" Wordpress plugin
         </a> - I made this Wordpress plugin for a company I worked at
