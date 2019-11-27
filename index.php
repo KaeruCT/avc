@@ -89,11 +89,25 @@
     function getNavLinks() {
         return $navlinks = $('.nav a');
     }
-    function setHash(str) {
+    function addHash(href, hash) {
+        var i = href.indexOf('#');
+        if (i !== -1) {
+            href = href.substr(0, i);
+        }
+        return href + hash;
+    }
+    function updateLanguageSwitcher() {
+        var hash = window.location.hash;
+        $('#language-switcher a').each(function (_, a) {
+            var $a = $(a);
+            $a.attr('href', addHash($a.attr('href'), hash));
+        });
+    }
+    function setHash(hash) {
         if (history.pushState) {
-            history.replaceState(null, null, str);
+            history.replaceState(null, null, hash);
         } else {
-            window.location.hash = str;
+            window.location.hash = hash;
         }
     }
     function showSection(href, immediate) {
@@ -106,6 +120,7 @@
         $content.fadeIn(animationTime);
         if (window.location.hash !== href) {
             setHash(href);
+            updateLanguageSwitcher();
         }
     }
 
@@ -113,6 +128,7 @@
         var hash = window.location.hash;
         if (hash) {
             showSection(hash, true);
+            updateLanguageSwitcher();
         }
         getNavLinks().on('click', function (e) {
             e.preventDefault();
