@@ -1,6 +1,7 @@
 <?php
+    $defaultLang = 'en';
     $langs = array('en' => 'English', 'es' => 'Espa&ntilde;ol');
-    $lang = isset($_GET['es']) ? 'es' : 'en';
+    $lang = isset($_GET['es']) ? 'es' : $defaultLang;
     $dir = __DIR__.'/'.$lang.'/';
     $sections = array();
     $files = array_diff(scandir($dir), array('.', '..'));
@@ -16,6 +17,8 @@
             'default' => ($file === 'cv' ? 'current' : '')
         );
     }
+
+    $url = $_SERVER['HTTP_HOST'].parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 ?>
 <!doctype html>
 <html lang="<?php echo $lang; ?>">
@@ -26,6 +29,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=yes">
     <meta property="description" content="Andr&eacute;s Villarreal, Software Engineer"/>
     <meta property="keywords" content="Software Engineer, Frontend Developer, Software Development, Open Source, Web Developer"/>
+    <link rel="alternate" href="//<?php echo $url; ?>" hreflang="en">
+    <link rel="alternate" href="//<?php echo $url; ?>?es" hreflang="es">
 </head>
 <body>
 
@@ -33,7 +38,7 @@
     <div id="language-switcher">
         <?php foreach ($langs as $i => $l): ?>
             <a <?php echo ($lang === $i ? 'class="current"' : ''); ?>
-                href="?<?php echo $i; ?>"><?php echo $l; ?></a>
+                href="<?php echo $i === $defaultLang ? './' : '?'.$i; ?>"><?php echo $l; ?></a>
         <?php endforeach; ?>
     </div>
     <div id="content">
@@ -118,6 +123,10 @@
         var animationTime = immediate ? 0 : 500;
         $('section.content').not($content).hide();
         $content.fadeIn(animationTime);
+        try {
+            console.log($content);
+            $content.get(0).scrollIntoView({ behavior: 'smooth' });
+        } catch (e) {}
         if (window.location.hash !== href) {
             setHash(href);
             updateLanguageSwitcher();
