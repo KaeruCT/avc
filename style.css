@@ -71,13 +71,15 @@ h5 {
     padding-bottom: 1em;
 }
 .thumbnail img {
-    max-width: 100%;
-    height: 180px;
+    max-width: 290px;
+    max-height: 180px;
+    width: auto;
+    height: auto;
 }
 .thumbnail span {
     line-height: 2em;
 }
-.thumbnail:hover, .thumbnail:active {
+a.thumbnail:hover, a.thumbnail:active {
     border-bottom: 0 !important;
     text-decoration: underline;
 }

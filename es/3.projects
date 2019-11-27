@@ -30,19 +30,35 @@ Proyectos
     aplicaci&oacute;n de <i>software</i>, si no algo
     que disfrut&eacute; programar solamente por pura diversi&oacute;n.
 </p>
+<a class="thumbnail" href="https://kaeruct.github.io/go-to-sleep/">
+    <img src="img/gotosleep.png" alt="go to sleep">
+    <div>go to sleep</div>
+</a>
+<a class="thumbnail" href="https://kaeruct.github.io/tt/">
+    <img src="img/toiletgame.png" alt="toilet game">
+    <div>toilet game</div>
+</a>
+<a class="thumbnail" href="https://kaeruct.github.io/musicSnake/">
+    <img src="img/musicSnake.png" alt="musicSnake">
+    <div>musicSnake</div>
+</a>
+<div class="thumbnail">
+    <img src="img/rate-our-foods.png" alt="Rate Our Foods">
+    <div>Rate Our Foods (perd&oacute;n, no hay link ya que es privada)</div>
+</div>
 <a class="thumbnail" href="showcase/glxy">
     <img src="img/glxy.png" alt="glxy">
-    <span>glxy</span>
+    <div>glxy</div>
 </a>
 <a class="thumbnail" href="showcase/snake">
     <img src="img/snake.png" alt="snake">
-    <span>snake</span>
+    <div>snake</div>
 </a>
 <a class="thumbnail" href="https://github.com/KaeruCT/GLXY#glxy">
     <img src="img/glxy-android.png" alt="GLXY (for Android)">
-    <span>GLXY (para Android)</span>
+    <div>GLXY (for Android)</div>
 </a>
 <a class="thumbnail" href="showcase/pixelshooter">
     <img src="img/pixelshooter.png" alt="pixelshooter">
-    <span>pixelshooter</span>
+    <div>pixelshooter</div>
 </a>
