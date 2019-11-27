@@ -89,7 +89,7 @@
     </div>
 </footer>
 
-<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script>
     function getNavLinks() {
         return $navlinks = $('.nav a');
@@ -124,7 +124,6 @@
         $('section.content').not($content).hide();
         $content.fadeIn(animationTime);
         try {
-            console.log($content);
             $content.get(0).scrollIntoView({ behavior: 'smooth' });
         } catch (e) {}
         if (window.location.hash !== href) {
