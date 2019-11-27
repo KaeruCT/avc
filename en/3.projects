@@ -29,17 +29,17 @@ Projects
 </p>
 <a class="thumbnail" href="showcase/glxy">
     <img src="img/glxy.png" alt="glxy">
-    glxy
+    <span>glxy</span>
 </a>
 <a class="thumbnail" href="showcase/snake">
     <img src="img/snake.png" alt="snake">
-    snake
+    <span>snake</span>
 </a>
 <a class="thumbnail" href="https://github.com/KaeruCT/GLXY#glxy">
     <img src="img/glxy-android.png" alt="GLXY (for Android)">
-    GLXY (for Android)
+    <span>GLXY (for Android)</span>
 </a>
 <a class="thumbnail" href="showcase/pixelshooter">
     <img src="img/pixelshooter.png" alt="pixelshooter">
-    pixelshooter
+    <span>pixelshooter</span>
 </a>

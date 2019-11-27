@@ -47,11 +47,11 @@
                 <?php echo $sections['info']['content']; ?>
                 <ul class="nav links">
                     <?php foreach ($sections as $i => $p): if ($i === 'info') continue; ?>
-                        <li><a class="<?php echo $p['default']; ?>"
-                            data-title="<?php echo $p['id']; ?>"
-                            href="#<?php echo $p['id']; ?>">
-                            <?php echo $p['title']; ?>
-                        </a></li>
+                        <li>
+                            <a class="<?php echo $p['default']; ?>" href="#<?php echo $p['id']; ?>">
+                                <?php echo $p['title']; ?>
+                            </a>
+                        </li>
                     <?php endforeach; ?>
                 </ul>
             </div>
@@ -86,23 +86,45 @@
 
 <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script>
-    var $navlinks = $('[data-title]');
-    $navlinks.on('click', function (e) {
-        var $content = $('.'+$(this).attr('data-title'));
-        e.preventDefault();
+    function getNavLinks() {
+        return $navlinks = $('.nav a');
+    }
+    function setHash(str) {
+        if (history.pushState) {
+            history.replaceState(null, null, str);
+        } else {
+            window.location.hash = str;
+        }
+    }
+    function showSection(href, immediate) {
+        var $navLinks = getNavLinks();
+        var $content = $('.content.' + href.replace('#', ''));
+        $navLinks.removeClass('current');
+        $navLinks.filter('[href="' + href + '"]').addClass('current');
+        var animationTime = immediate ? 0 : 500;
+        $('section.content').not($content).hide();
+        $content.fadeIn(animationTime);
+        if (window.location.hash !== href) {
+            setHash(href);
+        }
+    }
 
-        $navlinks.removeClass('current');
-        $(this).addClass('current');
-        $('section.content').not($content).slideUp(700);
-        $content.slideDown(700);
-        $('html, body').animate({
-            scrollTop: $(this).offset().top
-        }, 700);
+    $(function () {
+        var hash = window.location.hash;
+        if (hash) {
+            showSection(hash, true);
+        }
+        getNavLinks().on('click', function (e) {
+            e.preventDefault();
+            var href = $(this).attr('href');
+            showSection(href);
+        });
     });
+    
 </script>
 
 <noscript>
-    <style type="text/css">section.content {display: block;}</style>
+    <style type="text/css">section.content {display: block; margin-bottom: 2em;}</style>
 </noscript>
 </body>
 </html>
