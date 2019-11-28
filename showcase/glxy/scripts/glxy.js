@@ -8,6 +8,7 @@ define(["./particle", "./color", "./options", "./event"],
     partcount, // element that displays particle count
     help, // element that displays help
     locked = false, // whether the pointer is locked
+    isTrackpad = undefined, // whether trackpad was detected
 
     minRadius = 2,
     maxRadius = 70,
@@ -89,12 +90,20 @@ define(["./particle", "./color", "./options", "./event"],
 	}
 
     function scroll(e) {
+        if (typeof isTrackpad === 'undefined' && Math.abs(e.wheelDelta) > 0.99) {
+            isTrackpad = true;
+            return;
+        }
 		if (locked) {
 			var d = (e.detail ? e.detail * -1 : e.wheelDelta / 40) * 0.4,
-				psize = protoParticle.r;
+                psize = protoParticle.r;
 
-			d = d > 0 ? d : -1/d;
-			psize *= d;
+            if (isTrackpad) {
+                psize += -d*40;
+            } else {
+                d = d > 0 ? d : -1/d;
+                psize *= d;
+            }
 			psize = Math.min(maxRadius, Math.max(minRadius, psize));
 			protoParticle.r = psize;
 		}
