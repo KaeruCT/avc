@@ -10,7 +10,7 @@ Skills
         technologies such as:
         <ul>
             <li>HTML</li>
-            <li>CSS: Sass, Bootstrap, Foundation</li>
+            <li>CSS: Sass, Bootstrap, Foundation, CSS in JS</li>
             <li>Client-side JavaScript: React, Redux, AngularJS, jQuery</li>
             <li>Server-side JavaScript: Express</li>
             <li>PHP: Symfony, Zend Framework, Laravel, Silex, CakePHP, Doctrine</li>
@@ -23,8 +23,9 @@ Skills
         <ul>
             <li>Source Control: Git, Subversion</li>
             <li>Automation and Deployment: NPM, Grunt, Composer, Maven, Ant</li>
-            <li>IDEs / Editors: IntelliJ Idea, Atom, Eclipse, Netbeans, Vim</li>
-            <li>Continuous Integration: Jenkins</li>
+            <li>IDEs / Editors: Visual Studio Code, IntelliJ Idea, Atom, Eclipse, Netbeans, Vim</li>
+            <li>Continuous Integration: Concourse, Jenkins</li>
+            <li>DevOps: Ansible, Docker, Kubernetes</li>
         </ul>
     </li>
     <li>
