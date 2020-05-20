@@ -67,7 +67,7 @@
         </section>
 
         <?php foreach ($sections as $i => $p): if ($i === 'info') continue; ?>
-            <section class="content <?php echo $p['default'] ? 'default' : ''; ?> <?php echo $p['id']; ?>">
+            <section class="content <?php echo $p['default'] ? 'visible' : ''; ?> <?php echo $p['id']; ?>">
                 <a name="<?php echo $p['id']; ?>"></a>
                 <h2><?php echo $p['title']; ?></h2>
                 <?php echo $p['content']; ?>
@@ -93,7 +93,7 @@
     </div>
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cash/7.0.1/cash.min.js"></script>
 <script>
     function getNavLinks() {
         return $navlinks = $('.nav a');
@@ -125,8 +125,11 @@
         $navLinks.removeClass('current');
         $navLinks.filter('[href="' + href + '"]').addClass('current');
         var animationTime = immediate ? 0 : 500;
-        $('section.content').not($content).hide();
-        $content.fadeIn(animationTime);
+        $('section.content').removeClass('visible');
+        $content.addClass('visible fade fade-in');
+        setTimeout(function () {
+            $content.removeClass('fade');
+        }, animationTime);
         try {
             $content.get(0).scrollIntoView({ behavior: 'smooth' });
         } catch (e) {}
