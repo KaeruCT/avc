@@ -6,25 +6,23 @@ Skills
         order to develop high quality software solutions.
     </li>
     <li>
-        Developing web applications using
-        technologies such as:
+        Developing web applications using these technologies:
         <ul>
-            <li>HTML</li>
+            <li>HTML5</li>
             <li>CSS: Sass, Bootstrap, Foundation, CSS in JS</li>
-            <li>Client-side JavaScript: React, Redux, AngularJS, jQuery</li>
-            <li>Server-side JavaScript: Express</li>
+            <li>]JavaScript: TypeScript, Node, Express, React, Redux, AngularJS, jQuery</li>
             <li>PHP: Symfony, Zend Framework, Laravel, Silex, CakePHP, Doctrine</li>
             <li>Java: Struts, Spring, Hibernate, Spring Boot, Tomcat, JUnit, Freemarker</li>
             <li>Relational Databases: PostgreSQL, MySQL, sqlite</li>
         </ul>
     </li>
     <li>
-        Leveraging software configuration, development, and other tools such as:
+        Leveraging software configuration, development, and other tools:
         <ul>
             <li>Source Control: Git, Subversion</li>
             <li>Automation and Deployment: NPM, Grunt, Composer, Maven, Ant</li>
             <li>IDEs / Editors: Visual Studio Code, IntelliJ Idea, Atom, Eclipse, Netbeans, Vim</li>
-            <li>Continuous Integration: Concourse, Jenkins</li>
+            <li>Continuous Integration: Concourse, Gitlab CI, Jenkins</li>
             <li>DevOps: Ansible, Docker, Kubernetes</li>
         </ul>
     </li>
@@ -41,5 +39,5 @@ Skills
 <ul>
     <li>DevOps</li>
     <li>Free And Open Source Software</li>
-    <li>Mobile Development: iOS, Android</li>
+    <li>Leadership</li>
 </ul>

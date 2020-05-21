@@ -8,10 +8,9 @@ Habilidades
     <li>
         Desarrollar aplicaciones web utilizando las siguientes tecnolog&iacute;as:
         <ul>
-            <li>HTML</li>
+            <li>HTML5</li>
             <li>CSS: Sass, Bootstrap, Foundation, CSS in JS</li>
-            <li><i>Client-side</i> JavaScript: React, Redux, AngularJS, jQuery</li>
-            <li><i>Server-side</i> JavaScript: Express</li>
+            <li>JavaScript: Typescript, Node, Express, React, Redux, AngularJS, jQuery</li>
             <li>PHP: Symfony, Zend Framework, Laravel, Silex, CakePHP, Doctrine</li>
             <li>Java: Struts, Spring, Hibernate, Spring Boot, Tomcat, JUnit, Freemarker</li>
             <li>Bases de Datos Relacionales: PostgreSQL, MySQL, sqlite</li>
@@ -19,12 +18,12 @@ Habilidades
     </li>
     <li>
         Utilizar varias herramientas de configuraci&oacute;n y
-        desarrollo de software, tales como:
+        desarrollo de software:
         <ul>
             <li>Control de Versiones: Git, Subversion</li>
             <li>Automatizaci&oacute;n y despliegue: NPM, Grunt, Composer, Maven, Ant</li>
             <li>IDEs / Editores: Visual Studio Code, IntelliJ Idea, Atom, Eclipse, Netbeans, Vim</li>
-            <li>Integraci&oacute;n Continua: Concourse, Jenkins</li>
+            <li>Integraci&oacute;n Continua: Concourse, Gitlab CI, Jenkins</li>
             <li><i>DevOps</i>: Ansible, Docker, Kubernetes</li>
         </ul>
     </li>
@@ -41,5 +40,5 @@ Habilidades
 <ul>
     <li><i>DevOps</i></li>
     <li>Software Libre y de C&oacute;digo Abierto</li>
-    <li>Desarrollo M&oacute;vil: iOS, Android</li>
+    <li>Liderazgo</li>
 </ul>

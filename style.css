@@ -255,13 +255,17 @@ footer .links a:active {
 section.content {
     display: none;
     clear: both;
+    transition: opacity ease-in-out 500ms;
+    opacity: 0;
+}
+section.no-anim {
+    transition-duration: 0s !important;
+}
+section.fade-in {
+    opacity: 1;
 }
 section.visible {
     display: block;
-}
-section.fade {
-    opacity: 0;
-    transition: opacity ease-in-out 500s;
 }
 section.fade-in {
     opacity: 1;
